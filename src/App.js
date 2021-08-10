@@ -44,12 +44,13 @@ const Notifycation = (props) => {
   if (props.msg == 'ok') {
     return <p>ok</p>
   }else if(props.msg=='yes'){
-  return <p>yes</p>
+  return <p>yes</p> 
   return <div>
     <p>hello {props.id} {props.name}</p>
     <Hello {...props}></Hello>
   </div>
 
+}
 }
 const stylesHello = {
   color: 'blue',
